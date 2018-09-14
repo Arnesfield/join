@@ -1,0 +1,38 @@
+@media only screen and (max-width:960px) {
+	.card, .polaroid, .-remove {
+		display: none;
+	}
+	.-card {
+		display: block;
+	}
+	.font-quote {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width:1280px) {
+	#destinations .cards > * {
+		width: 100%;
+		height: 400px;
+	}
+	#destinations .bottom-group {
+		transform: translate(0px, 306px);
+	}
+}
+
+@media only screen and (min-width:1281px) {
+/*, only screen and (max-width:1195px)*/
+	#destinations .cards > * {
+		width: 50%;
+	}
+	#destinations .bottom-group {
+		transform: translate(0px, 206px);
+	}
+}
+
+
+@media only screen and (min-width:1196px) {
+	#destinations .cards > * {
+		/*width: 50%;*/
+	}
+}

@@ -1,0 +1,82 @@
+/* override or use from w3.css and other sources */
+
+/* header */
+header.header-top a:hover,
+header.header-top a:active,
+header.header-top a:focus {
+	color: #fff;
+}
+
+/* w3-sidenav */
+.w3-sidenav {
+	z-index: 3;
+	width: 300px;
+	font-weight: bold;
+}
+
+.w3-sidenav h3 {
+	font-size: 2.5em;
+	letter-spacing: 4px;
+	/*text-shadow: 2px 2px 8px rgba(0,0,0,0.4);*/
+}
+
+.w3-sidenav a {
+	padding: 8px 16px!important;
+}
+
+.w3-sidenav a:hover,
+.w3-sidenav a:focus,
+.w3-sidenav a:active {
+	background-color: #fafafa !important;
+	color: rgb(133,98,61) !important;
+}
+
+/* w3-main */
+.w3-main {
+	margin-left: 300px;
+	padding-top: 48px;
+}
+
+.w3-main h1 {
+	color: rgb(133,98,61);
+	letter-spacing: 2px;
+}
+
+.w3-main hr {
+	border: 5px solid rgb(133,98,61);
+	width:50px;
+}
+
+.w3-main .margin {
+	margin-top: 36px;
+}
+
+/* modal */
+#modal01 {
+	z-index: 100;
+	position: fixed;
+}
+
+/* boostrap */
+#destinations .cards > * {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+/* developers : index */
+.div-team .w3-card-2 {
+	padding: 12px 14px 6px;
+}
+
+.div-team .w3-card-2 img {
+	filter: grayscale(0.6);
+	margin-bottom: 2px;
+	transition: 0.2s all;
+}
+
+.div-team .w3-card-2:hover img {
+	filter: grayscale(0);
+}
+
+/* container */
+.container-fluid { padding: 0; }

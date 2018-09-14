@@ -1,0 +1,219 @@
+h1 { margin: 0; }
+
+
+
+
+
+
+.y-max-2 { height: 200vh; }
+.y-max-3 { height: 300vh; }
+
+.disp-b-m {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0%);
+    -ms-transform: translate(-50%,0%)
+}
+
+.center-content > .this {
+    color: #ebebeb;
+    padding: 0 8%;
+    text-align: center;
+	margin: 0;
+}
+
+h2 {
+	text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
+}
+
+.div-1 {
+	position: relative;
+}
+
+.card, .polaroid .p-img {
+	font-weight: bolder;
+	font-size: 26px;
+	filter: sepia(0.3);
+	transition: 0.2s all;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.card:hover, .polaroid:hover {
+	filter: sepia(0);
+}
+
+.card {
+	box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+	width: 480px;
+	height: 480px;
+}
+
+.polaroid {
+	padding: 12px 12px 32px;
+	background-color: #fafafa;
+	width: 480px;
+	height: 480px;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+.polaroid .p-img {
+	height: 100%;
+}
+
+
+h1 { margin: 0; }
+
+
+.addpad .row > div {
+	padding: 0 48px;
+}
+
+
+.some-dim {
+	background-color: rgba(0,0,0,0.4);
+}
+
+
+
+
+/* group */
+.-group { height: 0; }
+.-group .text { display: table; }
+.-group .text > div {
+	display: table-cell;
+	vertical-align: middle;
+	text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+.-clear { clear: both; }
+
+/* group pos */
+.-left, .-right {
+	width: 400px;
+	height: 85vh;
+}
+
+.-left { float: left; }
+.-right { float: right; }
+
+.-left .card, .-left .polaroid,
+.-right .card, .-right .polaroid {
+	
+}
+
+/* card polaroid */
+.card, .polaroid {
+	width: 400px;
+	height: 300px;
+	box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+	transition: 0.3 all;
+}
+
+.card, .polaroid .p-img {
+	font-weight: bolder;
+	font-size: 26px;
+	filter: sepia(0.3);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	transition: 0.3s all;
+}
+
+.card:hover, .polaroid:hover .p-img {
+	filter: sepia(0);
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px rgba(0,0,0,0.6);
+}
+
+/* polaroid */
+.polaroid {
+	width: 380px;
+	padding: 12px 12px 48px;
+	background-color: #efefef;
+	filter: sepia(0.3);
+}
+
+.polaroid:hover {
+	box-shadow: 0 8px 16px rgba(0,0,0,0.6);
+	filter: sepia(0);
+}
+
+.polaroid .p-img {
+	height: 100%;
+}
+
+.-contact .dim {
+	background-color: rgba(0,0,0,0.0);
+}
+
+.-contact .card {
+	color: #fafafa;
+}
+
+.-contact .card.-card {
+	width: 100%;
+	color: #000;
+	height: 70vh;
+	background-color: #f0f0f0;
+	padding: 0px 12px;
+	filter: sepia(0);
+}
+
+.-contact .card.-card .body {
+	padding: 8px 32px;
+}
+
+.-contact input {
+	width: 100%;
+}
+
+.-contact button {
+	font-size: 14px;
+}
+
+.-contact input, .-contact textarea {
+	font-size: 14px;
+	font-family: "Segoe UI";
+	font-weight: 100;
+	padding: 12px;
+}
+
+.-contact label {
+	font-size: 16px;
+	display: block;
+	text-align: left;
+	font-weight: 100;
+}
+
+.-contact textarea {
+	max-height: 120px;
+	width: 100%;
+}
+
+.-contact .center-content > .this {
+    color: #111;
+    padding: 0;
+    text-align: center;
+}
+
+.-contact .row > div {
+	padding: 12px;
+}
+
+.-contact hr {
+	border-color: #000;
+}
+
+.-contact .container {
+    padding: 48px 12px;
+}
+
+footer.-f {
+    margin: 0;
+}
+
+p { margin: 0;}
